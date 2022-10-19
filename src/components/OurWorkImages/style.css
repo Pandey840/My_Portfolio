@@ -1,0 +1,37 @@
+.ourwork-image {
+  padding: 12px;
+}
+
+@media (min-width: 768px) {
+  .ourwork-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+    height: auto;
+    margin: auto;
+  }
+
+  .ourwork-image .ourwork-img {
+    padding: 15px;
+  }
+
+  .ourwork-image .ourwork-img {
+    width: 213px;
+    height: 250px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  .ourwork-image {
+    width: 1100px;
+  }
+
+  .ourwork-image .ourwork-img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+  }
+}

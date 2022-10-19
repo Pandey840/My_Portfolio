@@ -1,0 +1,71 @@
+.aboutUs-section {
+    text-align: center;
+    margin: 10px;
+}
+
+.aboutUs-section .aboutUs-text .aboutUs {
+    color: gray;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+}
+
+.aboutUs-section .aboutUs-text .aboutUs-title {
+    color: black;
+    margin: 15px 40px;
+}
+
+.aboutUs-section .aboutUs-text .aboutUs-content {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150.6%;
+        margin: 18px 35px;
+        color: gray;
+}
+
+@media (min-width: 768px) {
+    .aboutUs-section {
+        display: flex;
+    }
+
+    .aboutUs-section .aboutUs-image,
+    .aboutUs-section .aboutUs-text {
+        flex: 1;
+    }
+
+    .aboutUs-section .aboutUs-poster-image{
+        object-fit: contain;
+    }
+
+    .aboutUs-section .aboutUs-text,
+    .aboutUs-section .aboutUs-title,
+    .aboutUs-section .aboutUs-content {
+        text-align: start;
+    }
+
+    .aboutUs-section .aboutUs-text .aboutUs,
+    .aboutUs-section .aboutUs-text .aboutUs-button {
+        margin: 15px 35px;
+    }
+
+    .aboutUs-icon{
+        display: flex;
+    }
+}
+
+@media (min-width:1024px) {
+    .aboutUs-section {
+        display: flex;
+        padding: 30px;
+    }
+
+    .aboutUs-section .aboutUs-image,
+    .aboutUs-section .aboutUs-text {
+        flex: 1;
+    }
+
+    .aboutUs-section .aboutUs-poster-image {
+        object-fit: contain;
+    }
+}

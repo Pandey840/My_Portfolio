@@ -1,0 +1,102 @@
+.ourExperience-data {
+text-align: center;
+margin-top: 65px;
+}
+
+.ourExperience-data .ourExperience-all-data{
+    margin: 40px;
+    box-sizing: border-box;
+    box-shadow: 1px 2px 10px rgb(0 0 0 / 30%);
+    height: 200px;
+    width: auto;
+    padding-top: 50px;
+}
+
+.ourExperience-data .ourExperience-all-data .ourExperience-number-data{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    color: black;
+}
+
+.ourExperience-data .ourExperience-all-data .ourExperience-data-text{
+    margin: 20px;
+    color: gray;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .ourExperience-data{
+        display: flex;
+        box-sizing: border-box;
+        width: 400px;
+        flex-wrap: wrap;
+        margin-top: 0;
+    }
+
+    .ourExperience-data .ourExperience-all-data {
+        margin: auto;
+        height: 150px;
+        width: 165px;
+    }
+
+    .ourExperience-data .ourExperience-all-data .ourExperience-number-data {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 123.6%;
+    }
+
+    .ourExperience-data .ourExperience-all-data .ourExperience-data-text {
+        font-family: 'Work Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150.6%;
+    }
+
+    .ourExperience-data .ourExperience-all-data:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width:1024px) {
+    .ourExperience-data {
+        height: 460px;
+        width: 520px;
+        display: flex;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+
+    .ourExperience-data .ourExperience-all-data {
+        margin: auto;
+        height: 200px;
+        width: 220px;
+    }
+
+    .ourExperience-data .ourExperience-all-data .ourExperience-number-data {
+        font-family: Work Sans;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+    }
+
+    .ourExperience-data .ourExperience-all-data .ourExperience-data-text {
+        font-family: Work Sans;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+
+}

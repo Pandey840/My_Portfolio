@@ -1,0 +1,127 @@
+.contactUsData {
+  width: 343px;
+  height: 224px;
+  margin: 23px 20px 30px 20px;
+}
+
+.contactUsData .contact-us {
+  display: flex;
+}
+
+.mail-img {
+  width: 75px;
+  height: 75px;
+  margin: 20px;
+}
+
+.contact-us .contact-us-text .title {
+  margin: 20px 98px 12px 0;
+  color: #ff5300;
+  font-weight: 500;
+  line-height: 123.6%;
+  font-size: 25px;
+}
+
+.contact-us .contact-us-text .contact {
+  font-weight: 600;
+  line-height: 123.6%;
+  color: #373737;
+  margin: 0 120px 35px 0;
+  font-size: 31.25px;
+}
+
+.contactUsData .contact-details {
+  font-weight: 500;
+  line-height: 123.6%;
+  color: #7b7b7b;
+}
+
+.contactUsData .contact-details .email {
+  margin: 0 100px 10px 25px;
+  font-size: 20px;
+}
+
+.contactUsData .contact-details .number {
+  margin: 0 100px 0 25px;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .contactUsData {
+    width: 213px;
+    height: 173px;
+  }
+
+  .mail-img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .contact-us .contact-us-text .title {
+    font-size: 20px;
+    width: 107px;
+    height: 25px;
+  }
+
+  .contact-us .contact-us-text .contact {
+    font-size: 25px;
+    width: 89px;
+    height: 31px;
+  }
+
+  .contactUsData .contact-details .email {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    width: 176px;
+    height: 24px;
+  }
+
+  .contactUsData .contact-details .number {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    width: 164px;
+    height: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contactUsData {
+    width: 370px;
+    height: 230px;
+  }
+
+  .mail-img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .contact-us .contact-us-text .title {
+    font-size: 25px;
+    width: 134px;
+    height: 31px;
+  }
+
+  .contact-us .contact-us-text .contact {
+    font-size: 31.25px;
+    width: 112px;
+    height: 39px;
+  }
+
+  .contactUsData .contact-details .email {
+    width: 221px;
+    height: 25px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+  }
+
+  .contactUsData .contact-details .number {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    width: 207px;
+    height: 25px;
+  }
+}

@@ -1,0 +1,26 @@
+.copyright {
+  width: 375px;
+  height: 84px;
+  text-align: center;
+}
+
+.copyright .copyright-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.6%;
+  width: 266px;
+  height: 48px;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .copyright {
+    height: 60px;
+    width: auto;
+  }
+
+  .copyright .copyright-text {
+    width: 373px;
+    height: 24px;
+  }
+}

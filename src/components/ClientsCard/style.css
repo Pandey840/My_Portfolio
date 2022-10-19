@@ -1,0 +1,101 @@
+.client-card {
+  position: relative;
+}
+
+.client-card .profile {
+  position: absolute;
+  left: 20px;
+  top: 60px;
+}
+
+.client-card .client-details {
+  box-sizing: border-box;
+  height: 177px;
+  width: 245px;
+  color: white;
+  padding: 25px;
+  margin: 40px;
+}
+
+.client-card .client-details .client-name {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.6%;
+  margin-top: 5px;
+}
+
+.client-card .client-details .client-domain {
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 123.6%;
+  margin-top: 5px;
+}
+
+.client-card .client-details .client-statement {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.6%;
+  height: 73px;
+  width: 179px;
+  margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+  .client-card .profile {
+    top: 70px;
+    left: 25px;
+  }
+
+  .client-card .client-details {
+    width: 292px;
+    height: 214px;
+    padding: 35px;
+    margin: 45px;
+  }
+
+  .client-card .client-details .client-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+  }
+
+  .client-card .client-details .client-domain {
+    font-size: 16px;
+    line-height: 150.6%;
+  }
+
+  .client-card .client-details .client-statement {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .client-card .profile {
+    top: 80px;
+    left: 35px;
+  }
+
+  .client-card .client-details {
+    width: 420px;
+    height: 250px;
+    padding: 45px;
+    margin: 55px;
+  }
+
+  .client-card .client-details .client-name {
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+  .client-card .client-details .client-domain {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .client-card .client-details .client-statement {
+    font-weight: 400;
+    font-size: 16px;
+  }
+}

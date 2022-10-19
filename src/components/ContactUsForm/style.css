@@ -1,0 +1,71 @@
+.contactUsForm .contactUsForm-image,
+.contactUsForm .contact-us-apply-form .contact-us-text {
+  text-align: center;
+}
+
+.contactUsForm-img {
+  width: 261.81px;
+  height: 168.52px;
+}
+
+.contactUsForm .contact-us-apply-form .contact-us-text {
+  width: 180px;
+  height: 62px;
+  margin: 55px auto 20px auto;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 123.6%;
+  color: #373737;
+}
+
+.contactUsForm .contact-us-apply-form .form {
+  margin: 18px;
+  background: #ffffff;
+}
+
+.contactUsForm .contact-us-apply-form .form .input-text {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  font-size: 16px;
+  border: none;
+}
+
+.contact-button {
+  margin: 20px;
+}
+
+@media (min-width: 768px) {
+  .contactUsForm {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contactUsForm-img {
+    width: 342px;
+    height: 181px;
+  }
+
+  .contactUsForm .contactUsForm-image {
+    margin-top: 270px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contactUsForm-img {
+    width: 500px;
+    height: 300px;
+  }
+
+  .contactUsForm .contact-us-apply-form .contact-us-text {
+    font-weight: 600;
+    font-size: 32px;
+    width: 388px;
+    height: 39px;
+  }
+
+  .contactUsForm .contactUsForm-image {
+    margin: 180px 0 0 0;
+  }
+}

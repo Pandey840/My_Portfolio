@@ -1,0 +1,86 @@
+.design-image .design-img {
+  width: 80px;
+  height: 80px;
+  margin: 18px;
+}
+
+.blogger-image .blogger-img {
+  width: 40px;
+  height: 40px;
+}
+
+.ourBlogger-details .ourBlogger-title {
+  display: flex;
+}
+
+.ourBlogger-details .blogger-profile {
+  display: flex;
+}
+
+.ourBlogger-details {
+  width: 296px;
+  height: 220px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  margin: 25px 30px;
+}
+
+.ourBlogger-details .ourBlogger-title .ourBlogger-text .domain {
+  margin: 19px;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 123.6%;
+  color: #ff5300;
+}
+
+.ourBlogger-details .ourBlogger-title .ourBlogger-text .blog {
+  margin-left: 19px;
+  width: 170px;
+  height: 96px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #373737;
+}
+
+.blogger-profile .blogger-image {
+  margin: 0 10px 19px 19px;
+}
+
+.blogger-details .blogger-name {
+  margin: 0 0 5px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #373737;
+}
+
+.blogger-details .blogger-time {
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 123.6%;
+  color: #7b7b7b;
+}
+
+@media (min-width: 768px) {
+  .blogger-image .blogger-img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .design-image .design-img {
+    width: 164px;
+    height: 164px;
+  }
+
+  .blogger-image .blogger-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .ourBlogger-details {
+    width: auto;
+    height: 294px;
+  }
+}

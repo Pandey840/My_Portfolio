@@ -1,0 +1,46 @@
+.clientsFeedback .clientsFeedback-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.6%;
+  text-align: center;
+  color: #7b7b7b;
+}
+
+.clientsFeedback .clientsFeedback-title {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 123.6%;
+  text-align: center;
+  color: #373737;
+  width: 180px;
+  height: 93px;
+  margin: 20px 0 0 90px;
+}
+
+.clientsFeedback .clients-profile {
+  display: flex;
+  overflow-x: auto;
+}
+
+@media (min-width: 768px) {
+  .clientsFeedback .clientsFeedback-title {
+    margin: 20px auto 45px auto;
+    font-weight: 600;
+    font-size: 31.25px;
+    width: 300px;
+    height: 78px;
+  }
+
+  .clientsFeedback .clients-profile {
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1024px) {
+  .clientsFeedback .clientsFeedback-title {
+    font-size: 39.06px;
+    line-height: 123.6%;
+    width: 400px;
+    height: 96px;
+  }
+}

@@ -1,0 +1,46 @@
+.app-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app-header .desktop-nav {
+    flex: 1;
+    display: none;
+}
+
+.app-header .app-mobile-menu {
+    cursor: pointer;
+}
+
+.app-header .app-mobile-close {
+    padding: 10px;
+    width: 45px;
+}
+
+@media (min-width: 768px) {
+    .app-header {
+        padding: 28px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #efefef;
+    }
+
+    .app-header .desktop-nav {
+        display: block;
+        cursor: pointer;
+    }
+
+    .app-header .app-mobile-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 1024px) {
+    .app-header {
+        padding: 25px 135px;
+    }
+}
+

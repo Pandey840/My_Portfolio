@@ -1,0 +1,74 @@
+.OurExperience-section {
+  text-align: center;
+  margin: 10px;
+}
+
+.OurExperience-section .OurExperience-text .OurExperience {
+  color: gray;
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.6%;
+}
+
+.OurExperience-section .OurExperience-text .OurExperience-title {
+  color: black;
+  margin: 15px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 123.6%;
+}
+
+.OurExperience-section .OurExperience-text .OurExperience-content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.6%;
+  margin: 18px 35px;
+  color: gray;
+}
+
+@media (min-width: 768px) {
+  .OurExperience-section {
+    display: flex;
+  }
+
+  .OurExperience-section .OurExperience-text,
+  .OurExperience-section .OurExperience-Data {
+    flex: 1;
+  }
+
+  .OurExperience-section .OurExperience-text {
+    text-align: start;
+  }
+
+  .OurExperience-section .OurExperience-text .OurExperience,
+  .OurExperience-section .OurExperience-text .OurExperience-title,
+  .OurExperience-section .OurExperience-text .OurExperience-button {
+    margin: 15px 35px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .OurExperience-section {
+    padding: 50px;
+  }
+  .OurExperience-section .OurExperience-text .OurExperience,
+  .OurExperience-section .OurExperience-text .OurExperience-title,
+  .OurExperience-section .OurExperience-text .OurExperience-button {
+    margin: 20px 40px;
+  }
+
+  .OurExperience-section .OurExperience-text {
+    height: 460px;
+    width: 570px;
+    padding: auto;
+    margin: auto;
+  }
+
+  .OurExperience-section .OurExperience-text,
+  .OurExperience-section .OurExperience-Data {
+    flex: 1;
+  }
+}

@@ -1,0 +1,50 @@
+.map .map-image {
+  text-align: center;
+  margin-top: 42px;
+  margin-bottom: 50px;
+}
+
+.map-img {
+  width: 344px;
+  height: 250px;
+}
+
+.security-img {
+  height: 53px;
+  width: 67px;
+}
+
+.map .security-tag {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px 50px 10px;
+}
+
+@media (min-width: 768px) {
+  .map-img {
+    width: 688px;
+    height: 250px;
+  }
+
+  .map .security-tag {
+    justify-content: space-around;
+    margin: 120px 0 120px 0;
+  }
+
+  .security-img {
+    width: 138px;
+    height: 109px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .map-img {
+    width: 1020px;
+    height: 450px;
+  }
+
+  .security-img {
+    width: 213px;
+    height: 167px;
+  }
+}
